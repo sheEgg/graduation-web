@@ -1,0 +1,201 @@
+
+/*用户登录背景*/
+.login .bg{
+    height: 337px;
+}
+/*用户登陆用户名*/
+.login .user{
+    position: absolute;
+    top: 6rem;
+    right: 2.5rem;
+    display: flex;
+}
+/*用户登陆密码*/
+.login .password{
+    position: absolute;
+    top: 9.5rem;
+    right: 2.5rem;
+    display: flex;
+}
+/*是否记住用户*/
+.login .remember{
+    color: #424242;
+    font-size: 11px;
+    position: absolute;
+    top: 12.5rem;
+    left: 2.5rem;
+    margin-top: 14px;
+}
+.login .remember input{
+    width: 11px;
+    height: 11px;
+    margin-top: 4px;
+}
+/*用户登陆忘记密码*/
+.login .fg{
+    position: absolute;
+    top: 12.5rem;
+    right: 2.5rem;
+    margin-top: 14px;
+    border: none;
+    color: #323333;
+    font-size: 11px;
+    cursor: pointer;
+}
+/*用户登陆按钮*/
+.login .btn{
+    position: absolute;
+    left: 2.2em;
+    top: 16rem;
+    border: none;
+    width: 28rem;
+}
+.login .btn1{
+    margin-right: 42px;
+}
+.login #btn1{
+    border: none;
+    color: #fff;
+    width: 8rem;
+    text-align: center;
+    background-color: #347ebc;
+    text-indent: 0;
+    cursor: pointer;
+}
+.login #btn2{
+    border: none;
+    color: #fff;
+    width: 8rem;
+    text-align: center;
+    background-color: #347ebc;
+    text-indent: 0;
+    cursor: pointer;
+}
+
+/*注册背景*/
+.resign{
+    display: none;
+}
+.resign .bg{
+    height: 450px;
+}
+/*注册表单样式*/
+/*注册用户名*/
+.resign  .user_name{
+    position: absolute;
+    top: 5.2rem;
+    right: 1.8rem;
+    display: flex;
+
+}
+/*注册用户手机号*/
+.resign  .user_phone{
+    position: absolute;
+    top: 8.5rem;
+    right: 1.8rem;
+    display: flex;
+
+}
+/*注册验证码*/
+.resign  .pin{
+    position: absolute;
+    top:11.8rem;
+    right: 1.8rem;
+    display: flex;
+}
+/*获取验证码*/
+.bg .numbtn{
+    width: 69px;
+    height: 23px;
+    position: absolute;
+    right: .5rem;
+    top: 0.7rem;
+    display: flex;
+    color: #fff;
+    border-radius: 2px;
+    background: #347ebc;
+    padding: 2px;
+    font-size: 13px;
+    text-indent: 0;
+    cursor: pointer;
+}
+/*注册重置密码*/
+.resign  .password_reset{
+    position: absolute;
+    top: 15.1rem;
+    right: 1.8rem;
+    display: flex;
+}
+/*注册确认密码*/
+.resign  .password{
+    position: absolute;
+    top: 18.4rem;
+    right: 1.8rem;
+    display: flex;
+}
+/*注册按钮*/
+.resign  .btn{
+    position: absolute;
+    top: 23rem;
+    right: 1.8rem;
+    border: none;
+    color: #fff;
+    width: 19.8rem;
+    text-align: center;
+    background-color: #347ebc;
+    text-indent: 0;
+}
+
+
+/*忘记密码*/
+/*找回密码背景*/
+.findWord{
+    display: none;
+}
+.findWord .bg{
+    height: 400px;
+}
+/*忘记密码表单样式*/
+/*忘记密码用户手机号*/
+.findWord .user_phone{
+    position: absolute;
+    top: 5.2rem;
+    right: 1.8rem;
+    display: flex;
+
+}
+/*忘记密码验证码*/
+.findWord .pin{
+    position: absolute;
+    top:8.5rem;
+    right: 1.8rem;
+    display: flex;
+}
+/*忘记密码重置密码*/
+.findWord .password_reset{
+    position: absolute;
+    top: 11.8rem;
+    right: 1.8rem;
+    display: flex;
+}
+/*忘记密码确认密码*/
+.findWord .password{
+    position: absolute;
+    top: 15.1rem;
+    right: 1.8rem;
+    display: flex;
+}
+/*忘记密码按钮*/
+.findWord .btn{
+    position: absolute;
+    top: 20rem;
+    right: 1.8rem;
+    border: none;
+    color: #fff;
+    width: 19.8rem;
+    text-align: center;
+    background-color: #347ebc;
+    text-indent: 0;
+}
+
+

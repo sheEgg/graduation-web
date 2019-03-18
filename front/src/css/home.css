@@ -1,0 +1,364 @@
+*{
+    list-style: none;
+}
+/*mian content*/
+/*服务提醒*/
+.sever{
+    height: auto ! important;
+    overflow: hidden;
+}
+.sWrapper{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.sWrapper i{
+    font-size: 25px;
+    color: #0169a4;
+}
+.sWrapper.title{
+    font-size: 15px;
+}
+.sWrapper .search{
+    width: 125px;
+    height: 25px;
+    color: #424242;
+    outline: none;
+    padding-left: 7px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    cursor: auto;
+}
+.sWrapper .stitle{
+    color: #afafaf;
+    font-size: 10px;
+    top: 15px;
+    margin-left: 20px;
+}
+.sWrapper .mbtn{
+    color: #3c8dff;
+    font-size: 12px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.sWrapper .sActive{
+    color: #fff;
+    background-color:  #3c8dff;
+    border-radius: 3px;
+}
+.infoWrapper{
+    padding-left: 25px;
+    list-style: none;
+    width: 465px;
+}
+.patientInfo{
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #cecece;
+    text-align: center;
+}
+.date{
+    background: #3399cc;
+    color: #f2f6fa;
+    width: 90px;
+    top: 0;
+    text-align: center;
+}
+.name{
+    position: absolute;
+    left: 120px;
+    top: 0;
+}
+.phone{
+    position: absolute;
+    left: 195px;
+    top: 0;
+}
+.des{
+    position: absolute;
+    left: 310px;
+    top: 0;
+}
+.severMission{
+    background-color: #f2f6fa;
+    border-radius: 10px;
+    width: 490px;
+    float: left;
+    margin-left: 30px;
+}
+.homeMission{
+    background-color: #f2f6fa;
+    border-radius: 10px;
+    width: 490px;
+    float: right;
+    margin-right: 30px;
+}
+@media screen and (max-width: 1306px) {
+    .severMission{
+        width: 93%;
+    }
+    .infoWrapper{
+        width: 97%;
+    }
+    .sWrapper .search{
+        width: 45%;
+    }
+    .stitle{
+        margin-left: 47%;
+    }
+    .name{
+        left: 25%;
+    }
+    .phone{
+        left: 43%;
+    }
+    .des{
+        left: 68%;
+    }
+    .homeMission{
+        width: 93%;
+        float: left;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}
+
+/*居民管理*/
+.resWrapper .add{
+    width: 70px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    margin: 5px 0;
+    background-color: #3399cc;
+    color: #fff;
+}
+.resWrapper .tabBtn{
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    float: right;
+    color: #424242;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 6px;
+    padding: 0 2px 0 2px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.residents .resWrapper .tabActive{
+    background-color: #3399cc;
+    color: #fff;
+}
+.show{
+    display: block;
+}
+.residents .zxTable{
+    margin-top: -10px;
+    position: relative;
+}
+.residents .smTable{
+    margin-top: -10px;
+    position: relative;
+}
+.residents table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: center;
+    background: #f2f6fa;
+    margin-top: 10px;
+}
+.residents thead tr th{
+    border: 0.5px solid #ddd;
+    padding: 0;
+    text-align: center;
+    height: 30px;
+}
+.residents table tbody{
+    border: 0.5px solid #ddd;
+    padding: 0;
+}
+.residents table tbody td{
+    border: 0.5px solid #ddd;
+    line-height: 28px;
+}
+.residents td input{
+    background-color: #3399cc;
+    color: #fff;
+    outline: none;
+    border: 1px solid transparent;
+    font-size: 10px;
+    margin: 3px 0;
+}
+/*新增居民表单*/
+.form{
+    width: 100%;
+    height: 98%;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+    position: absolute;
+}
+/*2019/2/20修改部分*/
+.form form{
+    margin: 4rem auto;
+    width: 300px;
+    height: 355px;
+    background: #f2f6fa;
+    z-index: 9999;
+    border-radius: 5px;
+}
+/*//修改部分*/
+.resWrapper ul{
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: -1.5rem;
+    font-family: "微软雅黑";
+    font-weight: lighter;
+}
+.resWrapper li{
+    display: inline-block;
+    margin-top: 1rem;
+}
+.resWrapper input{
+    width: 160px;
+}
+.resWrapper #male{
+    width:50px;
+}
+.resWrapper #female{
+    width:50px;
+}
+.resWrapper #smmale{
+    width:50px;
+}
+.resWrapper #smfemale{
+    width:50px;
+}
+.resWrapper button{
+    margin-left: 6rem;
+    margin-top: 10px;
+}
+
+/*健康档案*/
+.content{
+    position: relative;
+}
+.pieechart{
+    width: 500px;
+    height: 300px;
+    background: #f2f6fa;
+    position: absolute;
+}
+.familyEchart{
+    float: left;
+    left: 4rem;
+}
+.marryEchart{
+    right: 4rem;
+}
+.histoechart{
+    width: 1009px;
+    height: 300px;
+    background: #f2f6fa;
+    margin: 0 auto;
+    /*position: absolute;*/
+}
+.ageEchart{
+    margin-top: 26rem;
+}
+
+/*2019/2/20增加部分*/
+/*社区资料*/
+.information .content > div{
+    background: #f2f6fa;
+    color: #424242;
+    height: 490px;
+    border-radius: 5px;
+}
+.information form{
+    font-family: "微软雅黑 Light";
+}
+
+.information .control-group1{
+    position: absolute;
+    left: 0;
+    width: 280px;
+}
+
+.information .control-group2{
+    position: absolute;
+    width: 280px;
+    left: 395px;
+}
+
+.information p{
+    text-align: right;
+}
+.information .input-xlarge{
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.information button{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: #0169a4;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    color: #f2f6fa;
+    margin-top: 5px;
+    position: absolute;
+    right: 30px;
+}
+/*!--增加部分*/
+
+/*系统管理之发布公告*/
+.not .notGroup{
+    margin-bottom: 2rem;
+}
+.not p{
+    margin: 0;
+    padding: 0;
+}
+.not .control{
+    border: 1px solid #ddd;
+    padding: 7px 0;
+    border-radius: 3px;
+    padding-left: 5px;
+    background: #f2f6fa;
+    width: 100%;
+}
+.not .btn{
+    margin-top: 20px;
+    height: 36px;
+    border: 1px solid #ddd;
+    color: #777;
+}
+.not .editor{
+    background: #f2f6fa;
+}
+.not .notBtn{
+    background: #3399cc;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #f2f6fa;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 0 0 980px;
+}
+/*公告管理*/
+.notsys .bootstrap-table{
+    background: #f2f6fa;
+    border-radius: 5px;
+}

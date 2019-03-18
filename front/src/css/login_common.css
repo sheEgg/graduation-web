@@ -1,0 +1,172 @@
+/*通用*/
+*{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #666;
+    cursor: default;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+/*表单label*/
+.number{
+    text-align: left;
+    border-bottom:1px solid #347ebc;
+    line-height: 40px;
+}
+
+/*表单背景*/
+.bg{
+    width: 375px;
+    background: #fff;
+    position:absolute;
+    left:46%;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index: 1;
+    box-shadow:0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.bg input{
+    border-bottom:0.0625rem solid #347ebc;
+    height: 2.5625rem;
+    width: 15.8125rem;
+    text-indent: 1.5rem;
+    outline:none;
+}
+.bg input::placeholder{
+    color: darkgray;
+    font-size: 12px;
+}
+/*背景图片*/
+html,body{
+    width:100%;
+}
+body{
+    background:url(../images/background.jpg) no-repeat;
+    background-size: 100%;
+}
+.wel{
+    width: 375px;
+    height: 35px;
+    color: #347ebc;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2rem;
+    text-align: center;
+}
+/*返回首页的按钮*/
+.reLogin{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /*border: 1px solid #347ebc;*/
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+    color: #347ebc;
+}
+.reLogin > img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.reLogin:hover img{
+    width: 55px;
+    height: 55px;
+}
+/*横幅背景*/
+.bg1{
+    width:100%;
+    height: 237px;
+    background: #00205b;
+    opacity: 0.7;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+/*背景上的字*/
+.gyl{
+    width:510px;
+    height: 237px;
+    color: #FFFFFF;
+    font-size: 72px;
+    position:absolute;
+    left:14%;
+    top:16%;
+    bottom:0;
+    margin:auto;
+}
+.gy2{
+    color: #fff;
+    margin-left: 6px;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 15px;
+}
+/*错误提示*/
+span{
+    position: absolute;
+    height: 10px;
+    font-size: 12px;
+    color: #fd5c63;
+    left:66%;
+    top:25%;
+    z-index: 999;
+}
+
+/*reset style*/
+/*通用重置属性*/
+*{margin: 0;padding: 0;list-style: none;}
+/*对以上通用的展开*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,/*结构元素*/
+dl,dt,dd,ul,ol,li,/*列表元素*/pre,/*文本格式元素*/
+form,fieldset,legend,button,input,textarea,/*表单元素*/
+th,td/*表格元素*/{
+    margin: 0;
+    padding: 0;
+}
+
+address,cite,dfn,em,var{font-style:normal}/*将斜体扶正*/
+code,kbd,pre,samp{font-family: courier new,courier,monospace;}/*统一等宽字体*/
+small{font-size: 12px;}  /*小于12px的文字很难阅读，将其正常化*/
+
+/*重置文本格式元素*/
+a{text-decoration: none;}
+
+/*重置表单元素*/
+legend{color: #000;}/*for ie 6*/
+fieldset,img{border: 0;}/*使链接的img无边框*/
+button,input,select,textarea{font-size: 100%;}/*使得表单元素在ie下能继承字体*/
+
+/*重置表格元素*/
+table{border-collapse: collapse;border-spacing: 0;}
+
+/*common styles*/
+.re_img img{
+    display: block;
+    width:30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+.head_txt{
+    font-size: 20px;
+    color: #dddddd;
+    margin-top: 10px;
+}
+.left_float{
+    float: left;
+}
+.right_float{
+    float: right;
+}

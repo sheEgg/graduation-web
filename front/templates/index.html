@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>医时空-首页</title>
+    <link rel="SHORTCUT ICON" href="{% static 'images/favicon.ico' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
+    <!--<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_950496_4xnzb3bg3yp.css">-->
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <img class="logo" src="{% static 'images/logo.png' %}">
+        <h2 class="title">医时空</h2>
+        <p class="loginButton"><a href="{% url 'yskauth:index' %}">登录 | 注册</a></p>
+    </div>
+</div>
+
+<div class="banner">
+    <ul>
+        <li class="minBanner">Medi Space</li>
+    </ul>
+    <ul class="sliderPage">
+        <li>
+            <img src='{% static 'images/banner1.jpg' %}'>
+        </li>
+        <li>
+            <img src='{% static 'images/banner2.jpg' %}'>
+        </li>
+        <li>
+            <img src='{% static 'images/banner3.jpg' %}'>
+        </li>
+        <li>
+            <img src='{% static 'images/banner4.jpg' %}'>
+        </li>
+        <li>
+            <img src='{% static 'images/banner1.jpg' %}'>
+        </li>
+    </ul>
+    <div class="btn leftBtn">&lt;</div>
+    <div class="btn rightBtn">&gt;</div>
+    <div class="sliderIndex">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+<div class="content">
+    <div class="line">
+        <div class="title_box">
+            <span class="englishTitle">CHC NOTICES</span><br>
+            <span class="chineseTitle">最新公告</span>
+        </div>
+    </div>
+    <ul class="roll_news">
+        <li class="news">
+            <img src='{% static 'images/news.jpg' %}'>
+            <div class="newsContent">
+                <h3 class="newsTitle">元旦值班安排</h3><br>
+                <p class="articles">
+                    <p>内科、化验室：2018年12月30日至2019年1月1日8：00-20：00门诊；<br>中医科、放射科：2018年12月30日-2019年1月1日8：00-17：00门诊;<br>外科：2018年12月31日8：00-12：00上午半天门诊<br>温江社区卫生服务中心<br>2018年12月28日
+                    </p>
+                </p>
+            </div>
+        </li>
+        <li class="news">
+            <img src='{% static 'images/news2.jpg' %}'>
+            <div class="newsContent">
+                <h3 class="newsTitle">流感知识培训会</h3><br>
+                <p class="articles">为有效提升流感诊疗和防控知识，2019年1月17日下午3：30，温江社区卫生服务中心将组织全科医生进行流感知识二次培训。请全科全体医务人员参加培训，培训由参加流感诊疗和防控培训的唐帅医生主讲。</p>
+            </div>
+        </li>
+        <li class="news">
+            <img src='{% static 'images/news3.jpg' %}'>
+            <div class="newsContent">
+                <h3 class="newsTitle">绩效管理研讨会</h3><br>
+                <p class="articles">为稳步推进绩效管理系统的上线，进一步加强社区卫生服务的规范化、精细化、信息化建设，温江社区卫生服务中心于2019年1月14日召开了"绩效管理项目参数设定研讨会"。会议邀请了中国人民大学医院管理研究中心项目专家林江宇教授团队，中心主任贾问樱、书记黄慧英及相关中层干部参会。</p>
+            </div>
+        </li>
+    </ul>
+
+
+
+    <div class="line">
+        <div class="title_box">
+            <span class="englishTitle">INTRODUCE</span><br>
+            <span class="chineseTitle">系统介绍</span>
+        </div>
+    </div>
+    <div class="intrContent">
+        <h3>ABOUT&nbsp;&nbsp;&nbsp;US</h3>
+        <p>
+            社区卫生服务是城市卫生的重要组成部分，是为了满足群众的基本卫生服务需求，向社区居民提供<strong>安全、有效、便捷、经济</strong>的公共卫生服务和基本医疗服务。 “基层社区卫生服务站<strong>管理系统</strong>”对社区居民的健康档案进行管理再配合该系统的服务提醒功能，<strong>完善</strong>以疾病控制网络为主体的公共卫生信息系统，<strong>提高预测预警</strong>和分析报告能力，使社区卫生服务站更好的实现它本身<strong>“利国利民”</strong>的功能；由于该系统主打完善服务功能，属于小型管理系统，开发和维护<strong>成本很低</strong>，<strong>降低</strong>基层社区卫生服务站的支出，<strong>提高</strong>基层医疗卫生服务量， 使基层社区卫生服务站能用<strong>更少的投入获得更多的收获</strong>。
+        </p>
+        <img class="usImg" src="{% static 'images/us.jpg' %}">
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="fContent">
+        <img class="logo" src="{% static 'images/logo.png' %}">
+        <div class="fInformation">
+            <h3>我们公司的名字</h3>
+            <p style="font-size: 10px">电话：1838247XXXX&nbsp;&nbsp;&nbsp;&nbsp;客服电话：000000 &nbsp;&nbsp;&nbsp;
+                邮编：610000&nbsp;&nbsp;&nbsp;&nbsp;邮箱：XXXXXXXXX@qq.com&nbsp;&nbsp;&nbsp;&nbsp;地址：四川省成都市温江区柳台大道1166号</p>
+            <p class="copyright">©2018-2020 我们的公司 版权所有</p>
+        </div>
+    </div>
+</div>
+
+
+<script src='{% static 'js/move.js' %}'></script>
+<script src='{% static 'js/turn.js' %}'></script>
+</body>
+</html>
